@@ -1,0 +1,151 @@
+
+
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 1300px) and (max-width: 2300px) {
+
+nav.auto-hide-filter {
+    top: 19%;
+}
+
+
+
+
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+
+
+
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.auto-hide-filter:after {
+    width: 690px;
+}
+p.form-message.success {
+    width: 88%;
+}
+
+
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+.hero-content h1 {
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.logo h2 {
+	padding-bottom: 50px;
+}
+.top-area {
+	position: relative;
+	z-index: 999;
+}
+.container{
+	width: auto;
+ } 
+body.expand .menu-area {
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+.menu-area {
+    height: auto;
+}
+.menu-area ul li a {
+    margin: 25px 50px;
+    padding-bottom: 20px;
+}
+
+.faq_filter li {
+    display:  inline-block;
+}
+
+.faq_filter li a {
+    padding: 3px 5px;
+    font-size: 14px;
+}
+.portfolio-right {
+    margin-top: 50px;
+}
+.contact-area input[type="submit"] {
+    padding: 16px 100px;
+}
+.auto-hide-filter:after {
+   display: none;
+}
+
+.contact-area button {
+    padding: 16px 80px;
+}
+
+.top-area {
+    position:  fixed;
+    z-index:  99;
+}
+p.form-message.success {
+    border: 2px solid #35d078;
+    padding: 14px;
+    margin-top: 20px;
+    width: 75%;
+    bottom: 10%;
+}
+
+}
+    
+ 
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.auto-hide-filter:after {
+    width: 490px;
+    display: block;
+}
+.contact-area button {
+    padding: 16px 110px;
+}
+p.form-message.success {
+    border: 2px solid #35d078;
+    padding: 22px;
+    margin-top: 20px;
+    width: 82%;
+    bottom: 11%;
+}
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
